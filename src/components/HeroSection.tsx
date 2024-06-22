@@ -34,7 +34,7 @@ export default function HeroSection() {
                   words="Turning Designs into Interactive Digital Realities"
                 />
               </div>
-              <p className="py-6 relative z-20 text-lg sm:text-2xl text-neutral-500">
+              <p className="py-6 relative z-20 text-lg sm:text-2xl text-neutral-100">
                 Specializing in React, Redux, Next.js, Tailwind CSS, MongoDB,
                 Node.js, and Express.js. Crafting dynamic, user-focused web
                 applications.
