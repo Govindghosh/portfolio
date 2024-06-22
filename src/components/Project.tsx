@@ -10,13 +10,15 @@ export default function Project() {
   };
 
   return (
-    <div className="h-[40rem] w-full dark:bg-[#0f172a] bg-[#f8f8f2]  dark:bg-dot-sky/[0.2] bg-dot-white/[0.5] relative flex items-center justify-center">
+    <div className="h-[40rem] w-full dark:bg-[#0f172a] bg-[#f8f8f2]  dark:bg-dot-sky/[0.2] bg-dot-white/[0.5] relative">
       {/* Radial gradient for the container to give a faded look */}
-      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#0f172a] bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,white)]"></div>
-      <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
-        Showcase of My Work
-      </p>
-      <div>
+      <div className="absolute pointer-events-none inset-0 dark:bg-[#0f172a] bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,white)]"></div>
+      <div className="w-full py-12 flex items-center justify-center">
+      <p className="text-3xl sm:text-4xl font-bold">
+        A Small Showcase of <span className="text-purple-300">My Work</span>
+      </p> 
+      </div>
+      <div className="w-full">
         <PinContainer
           title="/NewsAPP"
           href="https://github.com/Govindghosh/NewsApp.git"
