@@ -30,7 +30,7 @@ export default function Project() {
             {projects.map(({ id, title, des, img, siteLink }) => (
               <div key={id} className="flex items-center justify-between m-4">
                 <PinContainer title={title} href={siteLink}>
-                  <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] relative">
+                  <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[18rem]">
                     <Image
                       src={img || unShowing}
                       alt={title}
@@ -62,7 +62,7 @@ export default function Project() {
                     >
                       {expandedId === id ? "Show less" : "More..."}
                     </span>
-                    <div className="flex items-center justify-center">
+                    {/* <div className="flex items-center justify-center">
                       <p className="text-purple flex text-sm md:text-xs lg:text-xl">
                         <a href={siteLink} target="_blank" rel="noopener noreferrer">
                           Visit Site
@@ -73,7 +73,7 @@ export default function Project() {
                         color="#eeeeee"
                         size={"20px"}
                       />
-                    </div>
+                    </div> */}
                   </div>
                 </PinContainer>
               </div>
