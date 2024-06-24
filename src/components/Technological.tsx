@@ -1,22 +1,18 @@
 "use client";
 import React from "react";
-import {
-  TextRevealCard,
-  TextRevealCardDescription,
-  TextRevealCardTitle,
-} from "./ui/text-reveal-card";
+import { TextRevealCard } from "./ui/text-reveal-card";
 export default function Technological() {
   return (
     <div className="w-full h-auto dark:bg-[#0f172a] bg-[#f8f8f2]">
       <div className="w-full h-auto flex flex-col justify-center items-center">
-        <div className="w-10/12 h-auto m-5">
-          <TextRevealCard          
+        <div className="w-10/12 h-auto m-5 flex items-center justify-center">
+          <TextRevealCard
+            className="flex justify-center items-center"
             text="Technological Palette"
-            revealText="A blend of tools and technologies that power my projects and creativity."
-          >
-          </TextRevealCard>
+            revealText="Technological Palette"
+          ></TextRevealCard>
         </div>
-        <div className="w-[20rem] h-[20rem] border-white border-2 m-5">
+        <div className="w-auto h-auto border-white border-2 m-5">
           for Technological
         </div>
       </div>

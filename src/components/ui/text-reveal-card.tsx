@@ -67,16 +67,16 @@ export const TextRevealCard = ({
       onTouchMove={touchMoveHandler}
       ref={cardRef}
       className={cn(
-        "bg-transparent w-[50rem] p-8 relative overflow-hidden",
+        "bg-transparent w-auto rounded-lg relative overflow-hidden",
         className
       )}
     >
       {children}
 
-      <div className="h-40  relative flex items-center overflow-hidden">
+      <div className="h-auto  relative flex items-center overflow-hidden">
         <motion.div
           style={{
-            width: "100%",
+            width: "auto",
           }}
           animate={
             isMouseOver
@@ -95,7 +95,7 @@ export const TextRevealCard = ({
             style={{
               textShadow: "4px 4px 15px rgba(0,0,0,0.5)",
             }}
-            className="text-base sm:text-xl py-10 font-bold text-white bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-300"
+            className="text-3xl sm:text-6xl px-[2px] text-center py-3 font-bold text-[#7565b5] bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-300"
           >
             {revealText}
           </p>
@@ -107,11 +107,11 @@ export const TextRevealCard = ({
             opacity: widthPercentage > 0 ? 1 : 0,
           }}
           transition={isMouseOver ? { duration: 0 } : { duration: 0.4 }}
-          className="h-40 w-[8px] bg-gradient-to-b from-transparent via-transparent to-transparent absolute z-50 will-change-transform"
+          className="h-auto w-auto bg-gradient-to-b from-transparent via-neutral-800 to-transparent absolute z-50 will-change-transform"
         ></motion.div>
 
         <div className=" overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,white,transparent)]">
-          <p className="text-base sm:text-[3rem] py-10 font-bold bg-clip-text text-transparent bg-[#323238]">
+          <p className="text-3xl sm:text-6xl px-[2px] text-center py-3 font-bold bg-clip-text text-transparent text-neutral-600">
             {text}
           </p>
           <MemoizedStars />
