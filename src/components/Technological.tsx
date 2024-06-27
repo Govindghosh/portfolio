@@ -13,17 +13,17 @@ const SkeletonOne = ({ imgSrc, techName }:any) => {
       initial="initial"
       animate="animate"
       whileHover="hover"
-      className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-row space-x-2"
+      className="flex flex-1 w-full h-full dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-row sm:flex-col my-2"
     >
       <motion.div
-        className="h-full w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center"
+        className="h-full w-[20em] rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center"
       >
         <Image
           src={imgSrc}
           alt={techName}
           height="100"
           width="100"
-          className="rounded-full h-10 w-10"
+          className="rounded-full h-auto w-auto"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
           {techName}
