@@ -7,10 +7,12 @@ import { CanvasRevealEffect } from "./ui/canvas-reveal-effect";
 
 export default function Approach() {
     return (
-        <section className="w-full py-20">
-          <h1 className="heading">
-            My <span className="text-purple">approach</span>
+        <div className="w-full py-10">
+         <div className="w-full flex items-center justify-center">
+         <h1 className="sm:text-6xl text-[#f8f8f2] font-semibold">
+            My <span className="text-purple-500">approach</span>
           </h1>
+         </div>
           <div className="my-20 flex w-full flex-col items-center justify-center gap-4 lg:flex-row">
             <Card
               title="Planning & Strategy"
@@ -55,7 +57,7 @@ export default function Approach() {
               />
             </Card>
           </div>
-        </section>
+        </div>
       );
 }
 const Card = ({
