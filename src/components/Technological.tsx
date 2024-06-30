@@ -2,11 +2,10 @@
 import React from "react";
 import { TextRevealCard } from "./ui/text-reveal-card";
 import { cn } from "@/utils/cn";
-import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Technologies } from "@/data";
-
+import { gridItems } from "@/data";
 const SkeletonOne = ({ imgSrc, techName }:any) => {
   return (
     <motion.div
@@ -46,19 +45,21 @@ export default function Technological() {
           />
         </div>
         <div className="w-auto h-auto border-white border-2 m-5">
-          <BentoGrid className="w-auto mx-auto md:auto-rows-[20rem] h-auto">
-            {Technologies.map((techCategory) => (
-              <BentoGridItem
-                key={techCategory.id}
-                title={techCategory.id}
-                description={
-                  techCategory.tech.map((techItem) => (
-                    <SkeletonOne key={techItem.id} imgSrc={techItem.img} techName={techItem.id} />
-                  ))
-                }
-              />
-            ))}
-          </BentoGrid>
+        <BentoGrid className="w-full py-20">
+        {gridItems.map((item, i) => (
+          <BentoGridItem
+            id={item.id}
+            key={i}
+            title={item.title}
+            description={item.description}
+            className={item.className}
+            img={item.img}
+            imgClassName={item.imgClassName}
+            titleClassName={item.titleClassName}
+            spareImg={item.spareImg}
+          />
+        ))}
+      </BentoGrid>
         </div>
       </div>
     </div>
