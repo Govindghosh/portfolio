@@ -3,13 +3,21 @@ import React from "react";
 import { Boxes } from "./ui/background-boxes";
 import { cn } from "@/lib/utils";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
+import { FcDownload } from "react-icons/fc";
+import { Button } from "./ui/MovingBorders";
 
 export default function HeroSection() {
   const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = 'https://drive.google.com/file/d/1PM8sLWGMqO3UcjyY1f6S4QKYpjGYGZVH/view?usp=sharing'; // Update with your actual resume path
-    link.download = 'GOVIND GHOSH (1).pdf'; // The name for the downloaded file
-    link.click();
+    const resumeLink = 'https://drive.google.com/file/d/1PM8sLWGMqO3UcjyY1f6S4QKYpjGYGZVH/view?usp=sharing'; // Update with your actual resume path
+    try {
+      const a = document.createElement("a");
+      a.href = resumeLink;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    } catch (error) {
+      console.error("Download failed", error);
+    }
   };
 
   return (
@@ -41,10 +49,21 @@ export default function HeroSection() {
               </p>
             </div>
           </div>
-          TODO: button
-          {/* <button onClick={handleDownload} className="btn flex items-center">
-            Download Resume
-          </button> */}
+          <Button
+          className="relative flex items-center justify-center gap-1 border border-neutral-200 px-3 py-1 text-xs font-semibold text-black sm:px-4 sm:py-2 sm:text-base dark:border-slate-800 dark:text-white"
+          duration={Math.floor(Math.random() * 10000) + 1000}
+          style={{
+            background: "rgb(4,7,29)",
+            backgroundColor:
+              "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+            borderRadius: `calc(1.75rem* 0.96)`,
+          }}
+          onClick={handleDownload}
+        >
+          <FcDownload />
+          <span className="hidden sm:block">Resume</span>
+          <span className="absolute inset-x-0 -bottom-px mx-auto h-px w-1/2 " />
+        </Button>
         </div>
       </div>
     </div>

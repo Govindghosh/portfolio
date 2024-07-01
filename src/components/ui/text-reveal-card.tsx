@@ -95,7 +95,7 @@ export const TextRevealCard = ({
             style={{
               textShadow: "4px 4px 15px rgba(0,0,0,0.5)",
             }}
-            className="text-[3rem] sm:text-[4rem] text-center py-2 font-bold text-[#826FC6] bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-300"
+            className="text-[3rem] sm:text-[4rem] text-center py-2 font-bold text-[#826FC6] bg-clip-text text-transparent bg-gradient-to-b from-white to-[#826FC6]"
           >
             {revealText}
           </p>

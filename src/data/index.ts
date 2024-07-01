@@ -3,7 +3,7 @@
 export const projects = [
     {
       id: 1,
-      title: "Eventloop - Event Management Web App",
+      title: "NextJS Template - Music Website",
       des: "Event creation & management at ease, with features like user authentication, ticket purchase along with Stripe integration",
       img: "/p1.png",
       iconLists: [
@@ -13,12 +13,12 @@ export const projects = [
         "/ts.svg",
         "/stripe-icon.svg",
       ],
-      siteLink: "https://eventloop.khushalagarwal.me/",
-      githubLink: "https://github.com/Khushal-ag/eventloop",
+      siteLink: "https://github.com/Govindghosh/musicnextjs.git",
+      githubLink: "https://github.com/Govindghosh/musicnextjs.git",
     },
     {
       id: 2,
-      title: "Sealog - Hotel Management system",
+      title: "Instagram clone",
       des: "Simplify your hotel management with Sealog, provides a comprehensive set of features for hotel employees to efficiently manage cabins/rooms, bookings, and guest information.",
       img: "/p2.png",
       iconLists: [
@@ -28,12 +28,12 @@ export const projects = [
         "/js.svg",
         "/react-query.svg",
       ],
-      siteLink: "https://sealog.khushalagarwal.me",
-      githubLink: "https://github.com/Khushal-ag/sealog",
+      siteLink: "https://github.com/Govindghosh/instagram.git",
+      githubLink: "https://github.com/Govindghosh/instagram.git",
     },
     {
       id: 3,
-      title: "Infinitunes - Music Streaming Platform",
+      title: "News App",
       des: "A web-based music streaming platform that allows users to listen to their favorite songs, create playlists, and discover new music.",
       img: "/p6.png",
       iconLists: [
@@ -43,12 +43,12 @@ export const projects = [
         "/ts.svg",
         "/vercel-light.png",
       ],
-      siteLink: "https://infinitunes.khushalagarwal.me/",
-      githubLink: "https://github.com/Khushal-ag/infinitunes",
+      siteLink: "https://github.com/Govindghosh/NewsApp.git",
+      githubLink: "https://github.com/Govindghosh/NewsApp.git",
     },
     {
       id: 4,
-      title: "MixR - A Community first Marketplace",
+      title: "Todo- list",
       des: "A community-first e-commerce platform that allow members to buy products at discounted prices.",
       img: "/p4.png",
       iconLists: [
@@ -58,12 +58,12 @@ export const projects = [
         "/ts.svg",
         "/golang.svg",
       ],
-      siteLink: "https://prod.mixr.gg/",
-      githubLink: "https://github.com/MixR-gg",
+      siteLink: "https://github.com/Govindghosh/Megablog.git",
+      githubLink: "https://github.com/Govindghosh/Megablog.git",
     },
     {
       id: 5,
-      title: "Triphive - Hotel Review Website",
+      title: "Currency Exchange",
       des: "A hotel review website that allows users to find hotels and leave reviews for them & in return users will get rewarded for their valuable reviews.",
       img: "/p3.png",
       iconLists: [
@@ -73,12 +73,12 @@ export const projects = [
         "/passport.svg",
         "/vercel-light.png",
       ],
-      siteLink: "https://triphive.khushalagarwal.me/",
-      githubLink: "https://github.com/Khushal-ag/TripHive",
+      siteLink: "https://github.com/Govindghosh/CurrencyExchange.git",
+      githubLink: "https://github.com/Govindghosh/CurrencyExchange.git",
     },
     {
       id: 6,
-      title: "NextJS Template - Starter Template",
+      title: "React Template - Blog Template",
       des: "A starter template for NextJS with TailwindCSS, TypeScript, prettier & eslint pre-configured. Get started with your next project in minutes.",
       img: "/p5.png",
       iconLists: [
@@ -88,8 +88,8 @@ export const projects = [
         "/ts.svg",
         "/vercel-light.png",
       ],
-      siteLink: "https://nextjs-template.khushalagarwal.me/",
-      githubLink: "https://github.com/Khushal-ag/nextjs-template",
+      siteLink: "https://github.com/Govindghosh/blog.git",
+      githubLink: "https://github.com/Govindghosh/blog.git",
     },
   ];
   
@@ -192,19 +192,19 @@ export const projects = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
+      img: "/Tech/grid.svg",
+      spareImg: "",
     },
   
     {
       id: 5,
-      title: "Currently working on backend with Golang",
+      title: "Currently working on MERN",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 rounded-lg",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
+      img: "/Tech/mern.jpg",
+      spareImg: "/Tech/grid.svg",
     },
     {
       id: 6,
