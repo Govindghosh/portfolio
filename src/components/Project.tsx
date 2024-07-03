@@ -23,7 +23,7 @@ export default function Project() {
           <div className="w-full py-12 flex items-center justify-center">
             <p className="text-3xl sm:text-4xl font-bold">
               A Small Showcase of{" "}
-              <span className="text-purple-300">My Work</span>
+              <span className="text-purple-400">My Work</span>
             </p>
           </div>
           <div className="w-full flex flex-wrap items-center justify-center gap-x-2 gap-y-4 p-4">

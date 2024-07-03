@@ -116,53 +116,53 @@ export const projects = [
     },
   ];
 
-  export const Technologies = [
-    {
-      id: "Frontend Technologies",
-      tech: [
-        { id: "HTML", img: "/Tech/html.png" },
-        { id: "CSS", img: "/Tech/css.png" },
-        { id: "JavaScript", img: "/Tech/javaScript.png" },
-        { id: "React", img: "/Tech/react.png" },
-        { id: "React-Redux", img: "/Tech/redux.png" },
-        { id: "Next.js", img: "/Tech/next.png" }
-      ]
-    },
-    {
-      id: "Backend Frameworks",
-      tech: [
-        { id: "Node.js", img: "/Tech/node.js" },
-        { id: "Express.js", img: "/Tech/express.png" },
-        { id: "Java", img: "/Tech/java.png" }
-      ]
-    },
-    {
-      id: "UI Libraries",
-      tech: [
-        { id: "Bootstrap", img: "/Tech/bootstrap.png" },
-        { id: "Tailwind CSS", img: "/Tech/tailwind.png" },
-        { id: "Aceternity UI", img: "/Tech/aceternity.png" },
-        { id: "Chakra UI", img: "/Tech/chakra.png" },
-        { id: "Shadcn UI", img: "/Tech/shadcn.png" }
-      ]
-    },
-    {
-      id: "Databases",
-      tech: [
-        { id: "MongoDB", img: "/Tech/mongodb.png" },
-        { id: "Mongoose", img: "/Tech/mongoose.png" },
-        { id: "Firebase", img: "/Tech/firebase.png" },
-        { id: "Appwrite", img: "/Tech/appwrite.png" }
-      ]
-    },
-    {
-      id: "Version Control",
-      tech: [
-        { id: "Git", img: "/Tech/git.png" },
-        { id: "GitHub", img: "/Tech/github.png" }
-      ]
-    }
-  ];
+  // export const Technologies = [
+  //   {
+  //     id: "Frontend Technologies",
+  //     tech: [
+  //       { id: "HTML", img: "/Tech/html.png" },
+  //       { id: "CSS", img: "/Tech/css.png" },
+  //       { id: "JavaScript", img: "/Tech/javaScript.png" },
+  //       { id: "React", img: "/Tech/react.png" },
+  //       { id: "React-Redux", img: "/Tech/redux.png" },
+  //       { id: "Next.js", img: "/Tech/next.png" }
+  //     ]
+  //   },
+  //   {
+  //     id: "Backend Frameworks",
+  //     tech: [
+  //       { id: "Node.js", img: "/Tech/node.js" },
+  //       { id: "Express.js", img: "/Tech/express.png" },
+  //       { id: "Java", img: "/Tech/java.png" }
+  //     ]
+  //   },
+  //   {
+  //     id: "UI Libraries",
+  //     tech: [
+  //       { id: "Bootstrap", img: "/Tech/bootstrap.png" },
+  //       { id: "Tailwind CSS", img: "/Tech/tailwind.png" },
+  //       { id: "Aceternity UI", img: "/Tech/aceternity.png" },
+  //       { id: "Chakra UI", img: "/Tech/chakra.png" },
+  //       { id: "Shadcn UI", img: "/Tech/shadcn.png" }
+  //     ]
+  //   },
+  //   {
+  //     id: "Databases",
+  //     tech: [
+  //       { id: "MongoDB", img: "/Tech/mongodb.png" },
+  //       { id: "Mongoose", img: "/Tech/mongoose.png" },
+  //       { id: "Firebase", img: "/Tech/firebase.png" },
+  //       { id: "Appwrite", img: "/Tech/appwrite.png" }
+  //     ]
+  //   },
+  //   {
+  //     id: "Version Control",
+  //     tech: [
+  //       { id: "Git", img: "/Tech/git.png" },
+  //       { id: "GitHub", img: "/Tech/github.png" }
+  //     ]
+  //   }
+  // ];
   export const gridItems = [
   
     {
