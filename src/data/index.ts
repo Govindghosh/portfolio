@@ -4,8 +4,8 @@ export const projects = [
     {
       id: 1,
       title: "NextJS Template - Music Website",
-      des: "Event creation & management at ease, with features like user authentication, ticket purchase along with Stripe integration",
-      img: "/p1.png",
+      des: "Designed a music web template using Next.js, React, TypeScript, and Tailwind UI. Developed responsive components for displaying music albums, artists, and playlists. Implemented dynamic routing for seamless navigation and a polished user interface using Tailwind UI components.",
+      img: "/Social/musicnextjs.jpeg",
       iconLists: [
         "/next.svg",
         "/tail.svg",
@@ -19,8 +19,8 @@ export const projects = [
     {
       id: 2,
       title: "Instagram clone",
-      des: "Simplify your hotel management with Sealog, provides a comprehensive set of features for hotel employees to efficiently manage cabins/rooms, bookings, and guest information.",
-      img: "/p2.png",
+      des: "Developed a replica of Instagram using React, Redux, Chakra UI, Firebase, and React Icons. Implemented functionalities such as user registration, login, profile management (editing bio, changing profile picture), creating and editing posts, liking and commenting on posts, and following/unfollowing other users.",
+      img: "/Social/instagram.jpeg",
       iconLists: [
         "/re.svg",
         "/tail.svg",
@@ -34,8 +34,8 @@ export const projects = [
     {
       id: 3,
       title: "News App",
-      des: "A web-based music streaming platform that allows users to listen to their favorite songs, create playlists, and discover new music.",
-      img: "/p6.png",
+      des: "Crafted a real-time news application using React. Integrated with a news API to fetch and display current news articles. Implemented features for filtering news by category and providing a seamless browsing experience.",
+      img: "/Social/NewsApp.jpeg",
       iconLists: [
         "/next.svg",
         "/tail.svg",
@@ -49,8 +49,8 @@ export const projects = [
     {
       id: 4,
       title: "Todo- list",
-      des: "A community-first e-commerce platform that allow members to buy products at discounted prices.",
-      img: "/p4.png",
+      des: "Built a sophisticated blogging platform using React, Redux, React Router DOM, and integrated with Appwrite for database operations. Implemented features like image uploading, creating posts with titles and slugs, authentication (user login, edit profile), and user management (add, delete, edit users).",
+      img: "/Social/Megablog.jpeg",
       iconLists: [
         "/next.svg",
         "/tail.svg",
@@ -64,8 +64,8 @@ export const projects = [
     {
       id: 5,
       title: "Currency Exchange",
-      des: "A hotel review website that allows users to find hotels and leave reviews for them & in return users will get rewarded for their valuable reviews.",
-      img: "/p3.png",
+      des: "Developed a real-time currency converter application using React. Integrated with an API to fetch current exchange rates dynamically. Users can input amounts in different currencies and instantly see the converted values.",
+      img: "/Social/CurrencyExchange.jpeg",
       iconLists: [
         "/nodejs.svg",
         "/mongodb-icon.svg",
@@ -79,8 +79,8 @@ export const projects = [
     {
       id: 6,
       title: "React Template - Blog Template",
-      des: "A starter template for NextJS with TailwindCSS, TypeScript, prettier & eslint pre-configured. Get started with your next project in minutes.",
-      img: "/p5.png",
+      des: "Created a basic blog application using React and React Router DOM. Implemented a responsive template for displaying posts. Users can navigate through different sections using routes configured with React Router DOM.",
+      img: "/Social/blog.jpeg",
       iconLists: [
         "/next.svg",
         "/tail.svg",
