@@ -6,7 +6,6 @@ import { TextGenerateEffect } from "./ui/textGenerate-effect";
 import Link from "next/link";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
-import { WavyBackground } from "./ui/wavy-background";
 
 export default function Footer() {
   return (

@@ -8,8 +8,9 @@ import MagicButton from "./MagicButton";
 import { GridGlobe } from "./GridGlobe";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import Lottie from "react-lottie";
+import Image from "next/image";
 
-
+Image
 export const BentoGrid = ({
   className,
   children,
