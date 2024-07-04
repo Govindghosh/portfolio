@@ -5,8 +5,6 @@ import { projects } from "@/data";
 import { TbLocationFilled } from "react-icons/tb";
 import Image from "next/image";
 
-const unShowing =
-  "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
 export default function Project() {
   const [expandedId, setExpandedId] = useState<number | null>(null);
@@ -32,7 +30,7 @@ export default function Project() {
                 <PinContainer title={title} href={siteLink}>
                   <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[18rem]">
                     <Image
-                      src={img || unShowing}
+                      src={img}
                       alt={title}
                       className="absolute bottom-0 z-10"
                       layout="fill"
@@ -79,7 +77,7 @@ export default function Project() {
               </div>
             ))}
           </div>
-          <div className="m-5">divider</div>
+          <div className="m-5"></div>
         </div>
       </div>
     </div>

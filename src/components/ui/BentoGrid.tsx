@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import { cn } from "@/utils/cn";
@@ -10,7 +8,6 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import Lottie from "react-lottie";
 import Image from "next/image";
 
-Image
 export const BentoGrid = ({
   className,
   children,
@@ -82,10 +79,11 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="absolute size-full">
           {img && (
-            <img
+            <Image
               src={img}
               alt={img}
               className={cn(imgClassName, "object-cover object-center")}
+              layout="fill"
             />
           )}
         </div>
@@ -93,10 +91,11 @@ export const BentoGridItem = ({
           className={`absolute -bottom-5 right-0 ${id === 5 && "w-full opacity-80"}`}
         >
           {spareImg && (
-            <img
+            <Image
               src={spareImg}
               alt={spareImg}
               className={"size-full object-cover object-center"}
+              layout="fill"
             />
           )}
         </div>

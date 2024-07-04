@@ -203,7 +203,7 @@ export const projects = [
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 rounded-lg",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/Tech/mern.jpg",
+      img: "/Tech/b5.svg",
       spareImg: "/Tech/grid.svg",
     },
     {
